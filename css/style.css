@@ -9888,3 +9888,11 @@ textarea.form-control {
   display: block;
   margin: 0 auto;
 }
+
+
+
+.skills-3d-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+}
