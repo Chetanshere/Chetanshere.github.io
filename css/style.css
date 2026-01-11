@@ -9969,3 +9969,9 @@ textarea.form-control {
   transform: translateX(-50%) !important;
 }
 
+
+/* Center big faded About text like Projects */
+#about-section .big.big-2 {
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+}
