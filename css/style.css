@@ -9852,3 +9852,14 @@ textarea.form-control {
   justify-content: center;
 }
 
+
+
+.about-yellow-card {
+  background: linear-gradient(135deg, #ffc107, #ffb300);
+  color: #111;
+  padding: 20px;
+  border-radius: 14px;
+  margin: 25px 0;
+  font-weight: 600;
+}
+
