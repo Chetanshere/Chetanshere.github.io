@@ -9868,3 +9868,23 @@ textarea.form-control {
   color: #ffc107;
 }
 
+
+/* Fix About section vertical alignment */
+#about-section .row.d-flex {
+  align-items: flex-start !important;
+}
+
+#about-section .col-md-7 {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+#about-section .heading-section {
+  margin-top: 0 !important;
+}
+
+
+#about-section .about-img img {
+  display: block;
+  margin: 0 auto;
+}
