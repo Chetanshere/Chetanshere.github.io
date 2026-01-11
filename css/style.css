@@ -9948,3 +9948,15 @@ textarea.form-control {
   z-index: 2;
 }
 
+
+
+/* Make About section heading behave exactly like Projects */
+#about-section .heading-section {
+  text-align: center;
+  position: relative;
+}
+
+#about-section .heading-section:before {
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+}
