@@ -9960,3 +9960,12 @@ textarea.form-control {
   left: 50% !important;
   transform: translateX(-50%) !important;
 }
+
+
+
+/* Center the big faded "About" text in About section */
+#about-section .heading-section h1.big {
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+}
+
