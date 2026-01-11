@@ -9896,3 +9896,30 @@ textarea.form-control {
   grid-template-columns: repeat(2, 1fr);
   gap: 14px;
 }
+
+
+
+
+/* Center the large About background text */
+#about-section .heading-section {
+  position: relative;
+  text-align: center;
+}
+
+#about-section .heading-section .big {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -60%);
+  font-size: 6rem;
+  opacity: 0.08;
+  line-height: 1;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+#about-section .heading-section h2 {
+  position: relative;
+  z-index: 2;
+}
+
