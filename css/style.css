@@ -9955,3 +9955,23 @@ textarea.form-control {
   }
 }
 
+
+
+/* Emergency fix for broken mobile hero */
+@media (max-width: 768px) {
+  #home-section,
+  #home-section * {
+    height: auto !important;
+    min-height: 0 !important;
+    position: relative !important;
+  }
+
+  #home-section .one-third {
+    display: none !important;
+  }
+
+  #home-section {
+    padding: 80px 0 40px;
+    overflow: visible !important;
+  }
+}
