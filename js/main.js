@@ -278,3 +278,14 @@ fullHeight();
 
 })(jQuery);
 
+
+
+// --- Force home section height to auto on mobile ---
+$(window).on('load resize', function() {
+  if ($(window).width() <= 768) {
+    $('#home-section, #home-section .js-fullheight, #home-section .slider-item').css({
+      height: 'auto',
+      minHeight: '0'
+    });
+  }
+});
