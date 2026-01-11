@@ -9898,4 +9898,20 @@ textarea.form-control {
 }
 
 
+@media (max-width: 768px) {
+  #home-section,
+  #home-section .js-fullheight,
+  #home-section .slider-item,
+  #home-section .owl-stage-outer,
+  #home-section .owl-stage,
+  #home-section .owl-item {
+    height: auto !important;
+    min-height: 0 !important;
+  }
+
+  #home-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
 
