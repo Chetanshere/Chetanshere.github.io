@@ -9915,3 +9915,17 @@ textarea.form-control {
   }
 }
 
+
+
+@media (max-width: 768px) {
+  #home-section {
+    min-height: auto !important;
+    height: auto !important;
+  }
+
+  #home-section .row.slider-text {
+    min-height: auto !important;
+    height: auto !important;
+    padding-bottom: 40px;
+  }
+}
