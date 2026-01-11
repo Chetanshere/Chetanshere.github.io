@@ -9834,3 +9834,21 @@ textarea.form-control {
 .skill-3d-card:hover {
   background-image: linear-gradient(135deg, #ffb300, #ffa000) !important;
 }
+
+
+/* Balance About section columns */
+#about-section .col-md-6,
+#about-section .col-lg-7,
+#about-section .col-lg-5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#about-section .heading-section {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
