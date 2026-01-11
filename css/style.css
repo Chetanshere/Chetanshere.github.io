@@ -9923,3 +9923,28 @@ textarea.form-control {
   z-index: 2;
 }
 
+
+
+/* Restore & center the About background text */
+#about-section .big {
+  display: block !important;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -60%);
+  font-size: 6rem;
+  opacity: 0.08;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+#about-section .heading-section {
+  position: relative;
+  text-align: center;
+}
+
+#about-section .heading-section h2 {
+  position: relative;
+  z-index: 2;
+}
+
