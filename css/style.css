@@ -9730,3 +9730,16 @@ textarea.form-control {
   }
 }
 
+/* Ensure text stays above logo on mobile */
+@media (max-width: 768px) {
+
+  #home-section .one-third.img {
+    z-index: 1 !important;
+  }
+
+  #home-section .one-forth {
+    z-index: 5 !important;
+    position: relative;
+  }
+
+}
