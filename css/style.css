@@ -9706,3 +9706,29 @@ textarea.form-control {
 
 
 
+
+
+/* ===== Clean mobile hero (remove background logo) ===== */
+@media (max-width: 768px) {
+
+  /* Remove the logo panel */
+  #home-section .one-third.img {
+    display: none !important;
+  }
+
+  /* Make text full width */
+  #home-section .one-forth {
+    width: 100% !important;
+    max-width: 100% !important;
+    text-align: center;
+    padding: 40px 20px !important;
+  }
+
+  #home-section .slider-text {
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+}
+
+
