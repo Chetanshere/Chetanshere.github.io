@@ -9929,3 +9929,29 @@ textarea.form-control {
     padding-bottom: 40px;
   }
 }
+
+
+
+
+/* Fix Home section breaking mobile layout */
+@media (max-width: 768px) {
+  #home-section,
+  #home-section .slider-item,
+  #home-section .owl-stage-outer,
+  #home-section .owl-stage,
+  #home-section .owl-item {
+    height: auto !important;
+    min-height: auto !important;
+    position: relative !important;
+  }
+
+  #home-section .one-third {
+    display: none; /* hides removed logo background on mobile */
+  }
+
+  #home-section {
+    padding-top: 80px;
+    padding-bottom: 40px;
+  }
+}
+
