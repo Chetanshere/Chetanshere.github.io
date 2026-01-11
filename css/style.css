@@ -9743,3 +9743,41 @@ textarea.form-control {
   }
 
 }
+
+
+
+/* ===== FORCE hero logo to behave like an image on mobile ===== */
+@media (max-width: 768px) {
+
+  #home-section .one-third.img {
+    height: auto !important;
+    min-height: 200px !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+
+    /* This is the critical part */
+    display: block !important;
+    float: none !important;
+  }
+
+  #home-section .js-fullheight {
+    height: auto !important;
+    min-height: 0 !important;
+  }
+
+  #home-section .slider-item,
+  #home-section .slider-text,
+  #home-section .row {
+    height: auto !important;
+  }
+
+  #home-section .one-forth {
+    position: relative;
+    z-index: 10;
+    background: transparent;
+    margin-top: 20px;
+  }
+
+}
+
