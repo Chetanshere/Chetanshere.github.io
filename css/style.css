@@ -9819,3 +9819,18 @@ textarea.form-control {
 .skill-3d-card:hover {
   background: linear-gradient(135deg, #ffb300, #ffa000) !important;
 }
+
+
+/* ===== FORCE yellow background on skill cards ===== */
+.skills-3d-grid .skill-3d-card,
+.skill-3d-card {
+  background-color: #ffc107 !important;
+  background-image: linear-gradient(135deg, #ffc107, #ffb300) !important;
+  color: #111 !important;
+  border: none !important;
+}
+
+.skills-3d-grid .skill-3d-card:hover,
+.skill-3d-card:hover {
+  background-image: linear-gradient(135deg, #ffb300, #ffa000) !important;
+}
