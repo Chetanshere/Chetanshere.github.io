@@ -9732,3 +9732,26 @@ textarea.form-control {
 }
 
 
+
+
+/* ===== Prevent hero from overlaying rest of page on mobile ===== */
+@media (max-width: 768px) {
+
+  #home-section {
+    position: relative !important;
+    height: auto !important;
+    overflow: hidden !important;
+  }
+
+  #home-section .home-slider,
+  #home-section .owl-stage-outer,
+  #home-section .owl-stage,
+  #home-section .owl-item,
+  #home-section .slider-item {
+    height: auto !important;
+    min-height: 0 !important;
+  }
+
+}
+
+
