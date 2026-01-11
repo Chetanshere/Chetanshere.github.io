@@ -9987,3 +9987,23 @@ textarea.form-control {
   z-index: 10 !important;
 }
 
+
+
+@media (max-width: 768px) {
+  #home-section .owl-stage-outer,
+  #home-section .owl-stage,
+  #home-section .owl-item {
+    height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+    position: static !important;
+  }
+}
+
+
+
+
+#resume-section {
+  position: relative;
+  z-index: 20;
+}
