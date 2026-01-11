@@ -289,3 +289,14 @@ $(window).on('load resize', function() {
     });
   }
 });
+
+
+
+// Disable Scrollax for hero on mobile to prevent full-screen height
+$(window).on('load resize', function () {
+  if ($(window).width() <= 768) {
+    $('#home-section [data-scrollax-parent]').removeAttr('data-scrollax-parent');
+    $('#home-section [data-scrollax]').removeAttr('data-scrollax');
+  }
+});
+
