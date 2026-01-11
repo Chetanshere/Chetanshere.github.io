@@ -304,3 +304,36 @@ $(window).on('load resize', function () {
   }
 });
 
+
+
+
+
+// Force mobile hero to behave like normal content
+(function () {
+  function fixMobileHero() {
+    if (window.innerWidth <= 768) {
+      var hero = document.getElementById("home-section");
+      if (!hero) return;
+
+      hero.style.height = "auto";
+      hero.style.minHeight = "0";
+
+      hero.querySelectorAll("*").forEach(function(el) {
+        if (el.style && (el.style.height || el.style.minHeight)) {
+          el.style.height = "auto";
+          el.style.minHeight = "0";
+        }
+      });
+
+      // Kill Scrollax transforms inside hero
+      hero.querySelectorAll("[data-scrollax],[data-scrollax-parent]").forEach(function(el){
+        el.removeAttribute("data-scrollax");
+        el.removeAttribute("data-scrollax-parent");
+        el.style.transform = "none";
+      });
+    }
+  }
+
+  window.addEventListener("load", fixMobileHero);
+  window.addEventListener("resize", fixMobileHero);
+})();
