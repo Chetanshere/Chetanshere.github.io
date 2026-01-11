@@ -10007,3 +10007,22 @@ textarea.form-control {
   position: relative;
   z-index: 20;
 }
+
+
+
+
+/* Ensure Resume has its own scroll position */
+#resume-section {
+  margin-top: 120px !important;
+  display: block !important;
+  position: relative;
+  clear: both;
+}
+
+/* Force Home to stop bleeding into next sections */
+#home-section {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+  overflow: hidden;
+}
+
