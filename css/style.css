@@ -9807,3 +9807,15 @@ textarea.form-control {
   transform: rotateY(10deg) rotateX(6deg) translateY(-8px) !important;
   box-shadow: 0 24px 50px rgba(0,0,0,0.12) !important;
 }
+
+
+
+/* ===== Brand yellow skill cards ===== */
+.skill-3d-card {
+  background: linear-gradient(135deg, #ffc107, #ffb300) !important;
+  color: #111 !important;
+}
+
+.skill-3d-card:hover {
+  background: linear-gradient(135deg, #ffb300, #ffa000) !important;
+}
