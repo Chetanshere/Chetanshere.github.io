@@ -9855,11 +9855,16 @@ textarea.form-control {
 
 
 .about-yellow-card {
-  background: linear-gradient(135deg, #ffc107, #ffb300);
-  color: #111;
-  padding: 20px;
+  border: 2px solid #ffc107;
   border-radius: 14px;
+  padding: 20px;
   margin: 25px 0;
-  font-weight: 600;
+  background: transparent;
+  color: #fff;
+  font-weight: 500;
+}
+
+.about-yellow-card strong {
+  color: #ffc107;
 }
 
