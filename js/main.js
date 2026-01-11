@@ -337,3 +337,17 @@ $(window).on('load resize', function () {
   window.addEventListener("load", fixMobileHero);
   window.addEventListener("resize", fixMobileHero);
 })();
+
+
+
+
+// Ensure resume section is not hidden by animation libraries
+window.addEventListener("load", function () {
+  var resume = document.getElementById("resume-section");
+  if (resume) {
+    resume.style.opacity = "1";
+    resume.style.visibility = "visible";
+    resume.style.transform = "none";
+  }
+});
+
