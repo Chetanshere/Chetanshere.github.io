@@ -17,17 +17,21 @@
   });
 
 
-	var fullHeight = function() {
-	  if ($(window).width() > 768) {
-	    $('.js-fullheight').css('height', $(window).height());
-	    $(window).resize(function(){
-	      $('.js-fullheight').css('height', $(window).height());
-	    });
-	  } else {
-	    $('.js-fullheight').css('height', 'auto');
-  	}
-};
+	var fullHeight = function () {
+	  function setHeight() {
+	    if (window.innerWidth > 768) {
+	      $('.js-fullheight').css('height', window.innerHeight);
+	    } else {
+	      $('.js-fullheight').css('height', 'auto');
+	    }
+	  }
+	
+	  setHeight();
+	  window.addEventListener('resize', setHeight);
+	};
+
 fullHeight();
+
 
 
 	// loader
